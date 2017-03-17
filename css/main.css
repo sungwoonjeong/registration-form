@@ -12,3 +12,7 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+h1 {
+  border-bottom: 1px solid;
+}
