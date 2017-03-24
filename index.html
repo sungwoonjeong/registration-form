@@ -27,32 +27,40 @@
 
         <legend class="mega italic pad-b-1-2">Personal details</legend>
 
-        <div class="pad-t-1-4 pad-b">
-          <label for="name">Name</label>
-          <input id="name" name="name">
+        <div class="grid">
+
+          <div class="unit pad-t-1-4 pad-b xs-1 s-1 m-1 l-1-2">
+            <label for="name">Name</label>
+            <input id="name" name="name">
+          </div>
+
+          <div class="unit pad-b xs-1 s-1 l-1-2">
+            <label for="age">Age</label>
+            <input id="age" type="number" name="age">
+          </div>
+
         </div>
 
-        <div class="pad-b">
-          <label for="age">Age</label>
-          <input id="age" type="number" name="age">
+        <div class="grid">
+
+          <div class="unit pad-b xs-1 s-1 l-1-2">
+            <label for="email">Email</label>
+            <input id="email" type="email" name="email">
+          </div>
+
+          <div class="unit pad-b xs-1 s-1 l-1-2">
+            <label for="physical-fitness">Physical fitness</label>
+            <select id="physical-fitness" name="physical-fitness">
+              <option>Super-human</option>
+              <option>Fit as a fiddle</option>
+              <option>Not terribly strong</option>
+              <option>A little couch-potato-y</option>
+            </select>
+          </div>
+
         </div>
 
-        <div class="pad-b">
-          <label for="email">Email</label>
-          <input id="email" type="email" name="email">
-        </div>
-
-        <div class="pad-b">
-          <label for="physical-fitness">Physical fitness</label>
-          <select id="physical-fitness" name="physical-fitness">
-            <option>Super-human</option>
-            <option>Fit as a fiddle</option>
-            <option>Not terribly strong</option>
-            <option>A little couch-potato-y</option>
-          </select>
-        </div>
-
-        <div class="pad-b-1-2">
+        <div class="pad-b-1-2 xs-1 s-1">
           <label for="address">Address</label>
           <textarea id="address" name="message"></textarea>
         </div>
